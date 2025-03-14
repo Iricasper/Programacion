@@ -1,0 +1,41 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'23'
+-sourcepath
+'C:/Users/usuario24/Documents/DAW Iris/Programación/U2-Ejercicios/u2-e1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/usuario24/Documents/DAW Iris/Programación/U2-Ejercicios/u2-e1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'u2-e1 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'u2-e1 1.0-SNAPSHOT API'
+com.mycompany.u2.e1
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\src\main\java = 1732791998425
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\allclasses-index.html = 1732795429582
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\allpackages-index.html = 1732795429586
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\element-list = 1732795429527
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\help-doc.html = 1732795429623
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\index-all.html = 1732795429611
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\index.html = 1732795429618
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\member-search-index.js = 1732795429595
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\module-search-index.js = 1732795429588
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\overview-tree.html = 1732795429569
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\package-search-index.js = 1732795429591
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\search.html = 1732795429615
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\tag-search-index.js = 1732795429598
+C:\Users\usuario24\Documents\DAW Iris\Programación\U2-Ejercicios\u2-e1\target\reports\apidocs\type-search-index.js = 1732795429594

@@ -1,0 +1,41 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'23'
+-sourcepath
+'C:/Users/usuario24/Documents/DAW Iris/Programación/U3-Ejercicios/u3-e01-Ordenador/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/usuario24/Documents/DAW Iris/Programación/U3-Ejercicios/u3-e01-Ordenador/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'u3-e01-Ordenador 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'u3-e01-Ordenador 1.0-SNAPSHOT API'
+com.mycompany.u3.e01.ordenador
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\src\main\java = 1736333988770
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\allclasses-index.html = 1736336374073
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\allpackages-index.html = 1736336374077
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\element-list = 1736336374020
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\help-doc.html = 1736336374114
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\index-all.html = 1736336374103
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\index.html = 1736336374109
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\member-search-index.js = 1736336374087
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\module-search-index.js = 1736336374080
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\overview-tree.html = 1736336374061
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\package-search-index.js = 1736336374082
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\search.html = 1736336374106
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\tag-search-index.js = 1736336374090
+C:\Users\usuario24\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e01-Ordenador\target\reports\apidocs\type-search-index.js = 1736336374084

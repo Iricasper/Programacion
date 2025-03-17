@@ -1,0 +1,71 @@
+package es.tuespiral.aplicacion.modelos;
+
+public class Contact {
+    private Integer contactId;
+    private String firstName, lastName, email, phone;
+    private Customer customer;
+
+    @Override
+    public String toString() {
+        return "Contact{" + "contactId=" + contactId + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + ", phone=" + phone +'}';
+    }
+
+    public Contact(Integer contactId, String firstName, String lastName, String email, String phone, Customer customer) {
+        this.contactId = contactId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.phone = phone;
+        this.customer = customer;
+    }
+
+    public Integer getContactId() {
+        return contactId;
+    }
+
+    public void setContactId(Integer contactId) {
+        this.contactId = contactId;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+    
+    
+}

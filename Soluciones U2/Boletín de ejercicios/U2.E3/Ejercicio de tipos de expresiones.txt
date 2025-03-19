@@ -1,0 +1,48 @@
+int edad;
+double precio;
+long entero;
+short corto;
+float rango;
+byte miByte;
+
+a) corto*miByte + edad*2/3
+short * byte + int * int / int
+Es una operación con enteros cuyo tipo más alto es int.
+
+
+b) corto*rango + edad*entero
+short * float + int * long
+Es una operación en la que alguno de los operandos es float, y ese será el tipo al que se conviertan los demás.
+
+
+c) edad*50L + corto + miByte
+int * long + short + byte
+Es una operación con enteros cuyo tipo más alto es int.
+
+
+d) (int) (precio*rango+entero*edad)
+Independientemente del tipo de la expresión entre paréntesis, finalmente se hace un casting a int.
+
+
+e) edad*23.33 + entero*rango
+int * double + long * float
+Es una operación en la que algunos de los operandos son números reales, siendo double el tipo más alto y al que se convierten los demás.
+
+
+f) corto + miByte + rango + edad + precio
+short + byte + float + int + double
+Es una operación en la que algunos de los operandos son números reales, siendo double el tipo más alto y al que se convierten los demás.
+
+
+g) (float) (edad + entero)
+Independientemente del tipo de la expresión entre paréntesis, finalmente se hace un casting a float.
+
+
+h) (float) edad + precio
+(float)int + double
+El casting explícito convierte la expresión en float + double. El tipo más alto es double y al que se convierte el primer sumando de esa expresión.
+
+
+i) miByte*23.33F + edad
+byte * float + int
+Es una operación en la que uno de los operandos es float, siendo ese el tipo al que se convierten los demás.

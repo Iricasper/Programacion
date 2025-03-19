@@ -1,0 +1,40 @@
+El ejercicio 34 me ha costado explicarlo, entendería que tuvierais dudas.
+
+Respecto a Math.random():
+Este método crea un double aleatorio entre el 0.00 y 0.99, sin llegar al 1. Si lo multiplicamos por un número x nos
+devolverá un valor entre el 0 y el x-1, por lo que si queremos valores entre 0 y 100, por ejemplo, tendremos que
+escribir Math.random * 101, ya que 101 - 1 es igual a 100 (realmente dará como máximo 100.99, pero ahora llegamos a
+eso). Si queremos valores entre el 1 y el 100 escribiremos Math.random * 100 + 1. Como queremos un número entero y
+no un double, tendremos que usar un cast explícito, es decir, especificar que queremos transformar el resultado en
+un int, y esto se hace escribiendo ambas cosas entre paréntesis: (int) (Math.random() * 101). Esto hará que
+desprecie los decimales, truncando siempre el resultado (ese 100.99 pasa a ser un 100).
+
+El ejercicio 37 pide que le devolvamos números pares, esto lo hemos hecho alguna vez y está en las diapositivas,
+pero por si acaso voy a explicar el % 2. % seguido de un entero devuelve el resto (lo que sobra en una división)
+del número que pongamos después. Al usar el 2, el resto solo puede ser 0 (si es par) o 1 (si es impar), por lo que
+como regla general si queremos los pares usaremos x % 2 == 0 y si queremos impares x % 2 == 1.
+
+El ejercicio 38 es una fumada y cuando vi lo que hizo el profesor me pasé 15 minutos intentando descifrarlo
+porque mezclaba muchas cosas y era muy abstracto. De hecho le mandé un correo y si quieres te lo paso porque se
+supone que lo expliqué bien y todo. En fin, al lío.
+Este ejercicio lo he hecho regular porque uso seis variables y recorro muchas veces el array NUM_TIRADAS, cuando
+en realidad solo necesitas dos, una al crearlo y otra para registrar las veces que sale cada número.
+Lo que haría si lo hiciera de nuevo sería crear un switch con 6 cases (1, 2, 3, 4, 5, 6). Recorro el array y le pido
+que me devuelva el número de cada posición, al hacerlo se activa el case correspondiente, que contiene un + 1 para
+el contador del número que corresponda (por seguir mi estructura, el case 3 sería un tres++ y un break, y sigue hasta
+que se salga del array.
+Si no quieres usar variables puedes crear un segundo array del tipo {0, 0, 0, 0, 0, 0} que
+sume 1 a la posición correspondiente cuando se active ese case.
+En cualquier caso si funciona funciona, aunque hagas lo mismo que he hecho yo en el ejercicio.
+
+El ejercicio 42. Aquí estuve un poco vaga, y la verdad es que que un programa le devuelva al usuario
+"Las cadenas son iguales? true" es triste. se soluciona cambiando el system.out.println por un
+if (elem.sonIguales()) {
+	sout ("blablabla son iguales");
+} else {
+	sout ("blablabla no son iguales");
+}
+
+El ejercicio 43 es mejorable. Preferentemente los print deberían estar fuera de los condicionales, que para algo
+he hecho un check, pero estaba ya quemada y se me pasó. Así que intenta que el print afirmativo (check == true)
+esté en un if else con el negativo, pero fuera del for.

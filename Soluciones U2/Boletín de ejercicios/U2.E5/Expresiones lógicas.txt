@@ -1,0 +1,86 @@
+edad = 39;
+altura = 200;
+casado = true;
+trabajador = false;
+salario = 1800.50;
+cochePropio = true;
+
+ ================================================================
+|  PRIORIDAD DE OPERADORES LÓGICOS: NOT (!) - AND (&&) - OR (||) |
+ ================================================================
+
+if (edad >= 18 && altura < 180 && casado == true && cochePropio == true)
+39 >= 18 && 200 < 180 && true == true && true == true
+    V    &&     F     &&      V       &&      V
+         F            &&      V       &&      V
+                      F               &&      V
+                           F
+
+
+
+if (edad >= 18 || altura < 180 || casado == true || cochePropio == true)
+39 >= 18 || 200 < 180 || true == true || true == true
+    V    ||     F     ||      V       ||      V
+         V            ||      V       ||      V
+                      V               ||      V
+                           V
+
+
+
+if (salario >= 1800 && !(trabajador == false) && !(edad < 18))
+1800.50 >= 1800 && !(false == false) && !(39 < 18))
+        V       &&          !V       && !F
+        V       &&          F        && V
+                   F                 && V
+                          F
+
+
+
+if (salario >= 1800 || !(trabajador == false) || !(edad < 18))
+1800.50 >= 1800 || !(false == false) || !(39 < 18)
+       V        ||         !V        ||     !F
+       V        ||         F         ||     V
+                 V                   ||     V
+                          V
+
+
+
+if (!trabajador && !casado)
+!F && !V
+V  &&  F
+   F
+
+
+
+if (edad < 39 && altura >= 200 && cochePropio && casado)
+39 < 39 && 200 >= 200 && V && V
+   F    &&      V     && V && V
+             F        && V && V
+                   F       && V
+                     F
+
+
+
+if (edad > 39 || altura > 200 || cochePropio)
+39 > 39 || 200 > 200 || V
+   F    ||     F     || V
+         F           || V
+              V
+
+
+
+if (edad < 39 && altura >= 200 && cochePropio || casado)
+39 < 39 && 200 >= 200 && V || V
+   F    &&      V     && V || V
+           F          && V || V
+                F          || V
+                   V
+
+
+
+if (edad < 39 && altura >= 200 && (cochePropio || casado))
+39 < 39 && 200 >= 200 && (V || V)
+   F    &&     V      && (V || V)
+   F    &&     V      &&    V
+        F             &&    V
+                 F

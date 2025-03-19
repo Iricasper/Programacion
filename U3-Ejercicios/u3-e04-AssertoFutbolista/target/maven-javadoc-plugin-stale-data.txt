@@ -1,0 +1,43 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'23'
+-sourcepath
+'C:/Users/XxLok/Documents/DAW Iris/Programación/U3-Ejercicios/u3-e04-AssertoFutbolista/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/XxLok/Documents/DAW Iris/Programación/U3-Ejercicios/u3-e04-AssertoFutbolista/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'u3-e04-AssertoFutbolista 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'u3-e04-AssertoFutbolista 1.0-SNAPSHOT API'
+es.marca.futbol.jugadores
+es.marca.futbol
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\src\main\java = 1736771113350
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\allclasses-index.html = 1736780223173
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\allpackages-index.html = 1736780223176
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\element-list = 1736780223134
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\help-doc.html = 1736780223195
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\index-all.html = 1736780223189
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\index.html = 1736780223165
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\member-search-index.js = 1736780223180
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\module-search-index.js = 1736780223177
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\overview-summary.html = 1736780223192
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\overview-tree.html = 1736780223163
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\package-search-index.js = 1736780223178
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\search.html = 1736780223190
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\tag-search-index.js = 1736780223180
+C:\Users\XxLok\Documents\DAW Iris\Programación\U3-Ejercicios\u3-e04-AssertoFutbolista\target\reports\apidocs\type-search-index.js = 1736780223179

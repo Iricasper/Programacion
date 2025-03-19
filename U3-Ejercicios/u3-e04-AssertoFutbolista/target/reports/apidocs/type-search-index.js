@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"es.marca.futbol.jugadores","l":"Futbolista"},{"p":"es.marca.futbol","l":"PruebaFutbolista"}];updateSearchResults();
